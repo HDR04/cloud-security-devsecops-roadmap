@@ -1,0 +1,35 @@
+# Secrets and credentials — never commit these
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+*.credentials
+credentials.json
+*secret*
+
+# Terraform
+*.tfstate
+*.tfstate.backup
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+*.tfvars
+!example.tfvars
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Node / misc
+node_modules/
+.DS_Store
+*.log
+.idea/
+.vscode/
